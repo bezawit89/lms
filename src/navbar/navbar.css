@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #006064;
+  height: 50px;
+}
+
+.logo-and-name {
+  position: relative;
+  top: 10px;
+}
+
+.logo-and-name i {
+  font-size: 30px;
+  position: relative;
+  left: 5px;
+  color: #039be5;
+}
+
+.logoname {
+  font-size: 20px;
+  color: #eeeeee;
+  font-weight: 500;
+  position: relative;
+  bottom: 7px;
+  left: 20px;
+}
+
+.notifi-and-logout {
+  display: flex;
+  float: right;
+  position: relative;
+  bottom: 25px;
+  right: 10px;
+  padding: 0;
+  height: inherit !important;
+}
+
+.notification {
+  position: relative;
+  top: 3px;
+  right: 15px;
+}
+
+.notif-icon {
+  color: #111;
+  font-size: 25px !important;
+}
+.notif-num {
+  position: relative;
+  bottom: 15px;
+  right: 7px;
+  padding: 2px 8px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px !important;
+  background: brown;
+  border-radius: 50%;
+}
+
+.search {
+  position: relative;
+  right: 5px;
+  font-size: 26px !important;
+  color: #039be5;
+}
+
+@media (max-width: 400px) {
+}
